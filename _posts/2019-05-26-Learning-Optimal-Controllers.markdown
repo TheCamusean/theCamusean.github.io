@@ -12,3 +12,5 @@ When it comes to Optimal Control Theory, two main approaches has been considered
 But first, let's formalize the problem. Assume a dynamical system
 
 $$ \dot{x} = f(x,u,t)$$
+
+sooo,
