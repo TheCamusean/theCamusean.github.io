@@ -13,12 +13,8 @@ But first, let's formalize the problem. Assume a dynamical system
 
 $$ \dot{x} = f(x,u,t)$$
 
-<<<<<<< HEAD
 and a Value function
 
 $$ V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
 
 The objective is to minimize the value function
-=======
-sooo,
->>>>>>> 698dad61584a04def21e373a9ae0b220cf1f448a
