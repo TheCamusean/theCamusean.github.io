@@ -22,3 +22,5 @@ The objective is to minimize the value function
 \begin{equation}
     V(x,u,t) = \argmax_u \int_{0}^{\inf} r(x,u,t) dt
 \end{equation}
+
+neeew
