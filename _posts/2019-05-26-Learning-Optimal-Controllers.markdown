@@ -13,8 +13,12 @@ But first, let's formalize the problem. Assume a dynamical system
 
 $$ \dot{x} = f(x,u,t)$$
 
-and a Value function
+and a Cost function
 
-$$ V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
+$$ J(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
 
 The objective is to minimize the value function
+
+\begin{equation}
+    V(x,u,t) = \argmax_u \int_{0}^{\inf} r(x,u,t) dt
+\end{equation}
