@@ -20,7 +20,13 @@ $$ J(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
 The objective is to minimize the value function
 
 \begin{equation}
-    V(x,u,t) = \argmax_u \int_{0}^{\inf} r(x,u,t) dt
+    V(x,u,t) = \arg \max_u \int_{0}^{\inf} r(x,u,t) dt
 \end{equation}
 
-neeew
+In equation \eqref{eq:sample}, we find the value of an
+interesting integral:
+
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
