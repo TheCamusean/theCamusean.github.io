@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: True
 title:  "Feedforward Inverse Dynamics"
 date:   2018-12-02 23:12:04 +0100
 categories: jekyll update
@@ -25,3 +26,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+$$x^2 = \arg \max_u$$
