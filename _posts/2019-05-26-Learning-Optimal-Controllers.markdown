@@ -38,9 +38,11 @@ Based on the previous work on Dynamic Programming, Bellman found an extension on
 Let's apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \ref{eq:value_func}
 
 \begin{equation}
+\begin{split}
   V(x,t) = \min_u(r(t,x,u)dt + V(t+dt,x+f(x,u,t)dt))\approx \\
   min_u(r(t,x,u)dt + J(x,t) + \partial_t J(x,t)dt + \partial_x J(x,t)f(x,u,t)dt)
   \label{HJB001}
+\end{split}
 \end{equation}
 
 where in the second line a Taylor expansion of the dynamic programming has been done. From Eq. \ref{HJB001}, we can obtain the Hamilton-Jacobi-Bellman equation
