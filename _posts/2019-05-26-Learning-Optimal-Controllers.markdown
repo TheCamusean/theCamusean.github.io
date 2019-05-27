@@ -35,4 +35,8 @@ In order to solve this problem, two main paths has been studied. On one side, ex
 
 Based on the previous work on Dynamic Programming, Bellman found an extension on the Hamilton-Jacobi equation in order to solve the Optimal Control problem.
 
-Let's apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \cite{eq:value_func} 
+Let's apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \cite{eq:value_func}
+
+\begin{equation}
+  
+\end{equation}
