@@ -38,5 +38,6 @@ Based on the previous work on Dynamic Programming, Bellman found an extension on
 Let's apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \cite{eq:value_func}
 
 \begin{equation}
+  V(x,t) = \min_u(r(t,x,u)dt + V(t+dt,x+f(x,u,t)dt))\approx \\
   
 \end{equation}
