@@ -19,13 +19,13 @@ But first, let's formalize the Optimal Control problem. Assume a dynamical syste
 and a Value function
 
 \begin{equation}
-$$ V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
+V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt.
 \end{equation}
 
 The objective is to minimize the value function
 
 \begin{equation}
-    V*(x,u,t) = \arg \min_u \int_{0}^{\inf} r(x,u,t) dt
+    V^{*}(x,u,t) = \arg \min_u \int_{0}^{\inf} r(x,u,t) dt
     \label{eq:value_func}
 \end{equation}
 
@@ -34,3 +34,5 @@ In order to solve this problem, two main paths has been studied. On one side, ex
 ## Hamilton-Jacobi-Bellman equation
 
 Based on the previous work on Dynamic Programming, Bellman found an extension on the Hamilton-Jacobi equation in order to solve the Optimal Control problem.
+
+Let's apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \cite{eq:value_func} 
