@@ -9,26 +9,28 @@ categories: jekyll update
 
 When it comes to Optimal Control Theory, two main approaches has been considered in order to solve it. On one side, the famous Hamilton-Jacobi-Bellman equation and on the other side, Pontryagin's Maximun Principle.
 
-But first, let's formalize the problem. Assume a dynamical system
+But first, let's formalize the Optimal Control problem. Assume a dynamical system
 
-$$ \dot{x} = f(x,u,t)$$
 
-and a Cost function
+\begin{equation}
+    \dot{x} = f(x,u,t)
+\end{equation}
 
-$$ J(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
+and a Value function
+
+\begin{equation}
+$$ V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt$$.
+\end{equation}
 
 The objective is to minimize the value function
 
 \begin{equation}
-    V(x,u,t) = \arg \max_u \int_{0}^{\inf} r(x,u,t) dt
+    V*(x,u,t) = \arg \min_u \int_{0}^{\inf} r(x,u,t) dt
+    \label{eq:value_func}
 \end{equation}
 
-In equation \eqref{eq:sample}, we find the value of an
-interesting integral:
+In order to solve this problem, two main paths has been studied. On one side, extending the work of [Hamilton & Jacobi](https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation), Bellman developed the [Hamilton-Jacobi-Bellman equation](http://fourier.dur.ac.uk/Ug/projects/highlights/PR4/Smears_HJB_report.pdf)(HJB) in the decade of the 60's. On the other hand, Pontryagin's approach is also well known as the Pontryagin's Maximun Principle(PMP).
 
-\begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-  \label{eq:sample}
-\end{equation}
+## Hamilton-Jacobi-Bellman equation
 
-not appears :(
+Based on the previous work on Dynamic Programming, Bellman found an extension on the Hamilton-Jacobi equation in order to solve the Optimal Control problem.
