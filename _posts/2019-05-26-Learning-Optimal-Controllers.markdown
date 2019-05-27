@@ -40,6 +40,19 @@ Let's apply dynamic programming approach on the value function. The value functi
 \begin{equation}
   V(x,t) = \min_u(r(t,x,u)dt + V(t+dt,x+f(x,u,t)dt))\approx \\
   min_u(r(t,x,u)dt + J(x,t) + \partial_t J(x,t)dt + \partial_x J(x,t)f(x,u,t)dt)
+  \label{HJB001}
 \end{equation}
 
-where in the second line a Taylor expansion of the dynamic programming has been done. 
+where in the second line a Taylor expansion of the dynamic programming has been done. From Eq. \ref{HJB001}, we can obtain the Hamilton-Jacobi-Bellman equation
+
+\begin{equation}
+  -\partial_t J(x,t) = \min_u (r(x,t,u) + \partial_x J(x,t)f(x,u,t))
+  \label{HJBEQ}
+\end{equation}
+
+As it will be used in the future for computing by PMP, The Hamiltonian is represented in right-hand side
+
+\begin{equation}
+  H = r(x,t,u) + \partial_x J(x,t)f(x,u,t)
+  \label{Hamilton}
+\end{equation}
