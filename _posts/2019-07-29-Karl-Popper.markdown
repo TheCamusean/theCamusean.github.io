@@ -23,4 +23,11 @@ Heraclitus can be observed as the father of the dynamical systems. Before Heracl
 
 However, there are some laws that describe this world transformation and these laws are steady, they dont change through the time.
 
-We can observe the laws in two ways. On one side, we have the nature laws. On the other side, the state laws. It is very interesting the relationship of the tribal communes with the laws. For tribal states, there was no difference between nature laws and state laws and they were not able to think in breaking a state law in the same way we cannot think in the sun breaking his orbit law. 
+We can observe the laws in two ways. On one side, we have the nature laws. On the other side, the state laws. It is very interesting the relationship of the tribal communes with the laws. For tribal states, there was no difference between nature laws and state laws and they were not able to think in breaking a state law in the same way we cannot think in the sun breaking his orbit law.
+
+
+## Questions
+
+1. Is it possible to think in a hyper-law, that defines the dynamic transformation of the nature laws? Or are they static by definition?
+2. From Historicism perspective, everything can be modelled as a dynamical system. Can we find some limitations to what we can model as dynamical system?
+3. Can be modelled by a Stochastic Dynamical System(SDS), does dynamics that are not possible to model by deterministic ones? And so, can we model human history by a SDS?
