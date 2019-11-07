@@ -31,3 +31,7 @@ We can observe the laws in two ways. On one side, we have the nature laws. On th
 1. Is it possible to think in a hyper-law, that defines the dynamic transformation of the nature laws? Or are they static by definition?
 2. From Historicism perspective, everything can be modelled as a dynamical system. Can we find some limitations to what we can model as dynamical system?
 3. Can be modelled by a Stochastic Dynamical System(SDS), does dynamics that are not possible to model by deterministic ones? And so, can we model human history by a SDS?
+
+# Chapter 3: Plato
+
+Plato is amazing
