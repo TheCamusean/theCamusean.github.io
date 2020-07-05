@@ -21,7 +21,10 @@ Linear Dynamic Systems consider a linear function between the state and the time
 Linear Dynamics has been further studied. Thanks to their simplicity, there has been plenty of mathematical research on them.
 
 ### Stability
-Stability analysis can be clearly study from
+Stability analysis can be clearly study from Poincare Diagrams
+
+![Image](/Figures/Stability_Diagram.png) (add reference to the figure)
+
 
 ### Stochasticity and density evolution
 
