@@ -5,4 +5,8 @@
 
 Image from link:
 
+<img src="../Figures/RSHAPE.png" alt="hi" class="inline"/>
+
+
+
 ![Image](https://github.com/TheCamusean/theCamusean.github.io/blob/master/_figures/RSHAPE.png)
