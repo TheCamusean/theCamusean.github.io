@@ -20,10 +20,26 @@ Linear Dynamic Systems consider a linear function between the state and the time
 
 Linear Dynamics has been further studied. Thanks to their simplicity, there has been plenty of mathematical research on them.
 
+### Stability
+Stability analysis can be clearly study from
 
-## Normalizing FLows & Nonlinear Stable Flows
+### Stochasticity and density evolution
 
+GIF on which we can observe how a gaussian distribution mean and variance is morphed moving through a stable linear vector field.
+
+Graphical model to explain the message passing of the noise.
+
+
+## Normalizing Flows & Nonlinear Stable Flows
+
+Introduce a GIF showing the morphing through a Normalizing Flow(use FFJORD case, for some dynamics)
 
 ### Diffeormorphism
 
+Explain what diffeomorphism is, add a graphical model explaining my dynamical systems evolution in latent space vs observation space
+
 ### The importance of the bijective mappings
+
+Add a figure showing the bijective mapping versus the injective mapping and surjective mappings
+
+Explain the problem of encoder-decoder structure.
