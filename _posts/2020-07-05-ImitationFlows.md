@@ -4,4 +4,4 @@
 
 Image 2:
 
-![Image](Figures/RSHAPE.png)
+![Image](/Figures/RSHAPE.png)
