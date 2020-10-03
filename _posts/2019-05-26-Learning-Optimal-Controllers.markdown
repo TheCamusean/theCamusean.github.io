@@ -62,3 +62,5 @@ As it will be used in the future for computing by PMP, The Hamiltonian is repres
 The optimal controller will be obtained when the derivative of the Hamiltonian equals 0 $\frac{dH}{du}=0$.
 
 In order to compute the optimal controller and so, solve the optimal control problem some assumptions must be done on the dynamic system $f(x,u,t)$ and the cost function $r(x,u,t)$.
+
+## Pontryagin's Minimum Principle
