@@ -1,7 +1,7 @@
 ---
 title: My page
 layout: default_cool
-title: CACA
+title: Julen Urain | PhD TUDA
 ---
 
 # {{ page.title }}
