@@ -42,7 +42,7 @@ h1 {
     line-height: 70px;
 }
 
-h6 {
+h1:white {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
