@@ -282,7 +282,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../Figures/main.jpg);
+    background: url(../Figures/main_desat.jpg);
     background-size: cover;
     height: 100vh;
 }
