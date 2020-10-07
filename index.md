@@ -1,6 +1,6 @@
 ---
 title: My page
-layout: default
+layout: default_cool
 ---
 
 # {{ page.title }}
