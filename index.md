@@ -1,6 +1,7 @@
 ---
 title: My page
 layout: default_cool
+title: CACA
 ---
 
 # {{ page.title }}
