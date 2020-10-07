@@ -41,12 +41,8 @@ h1 {
     font-size: 80px;
     line-height: 70px;
 }
-
-h1:white {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    line-height: 70px;
-    color: #000000
+.W{
+    color: #FFFFFF
 }
 
 h4 {
