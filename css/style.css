@@ -295,7 +295,7 @@ a.active {
 
 .table-cell {
     display: table-cell;
-    vertical-align: high;
+    vertical-align: middle;
 }
 
 .disply-table {
