@@ -43,7 +43,6 @@ h1 {
 }
 .W{
     color: #FFFFFF;
-    font-weight: 900;
     background: #e7f0ce;
 }
 
@@ -294,7 +293,7 @@ a.active {
 
 .table-cell {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: high;
 }
 
 .disply-table {
