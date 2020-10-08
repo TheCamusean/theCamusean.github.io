@@ -54,6 +54,9 @@ h4 {
     margin-left: 40px;
     font-weight: 700;
 }
+.W{
+  color: #FFFFFF;
+}
 
 h4:before {
     position: absolute;
