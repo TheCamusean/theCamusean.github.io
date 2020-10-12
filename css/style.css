@@ -307,7 +307,7 @@ a.active {
 /* home section
 ==================================================*/
 #post {
-  padding: 100px 0;
+  margin: 0 auto;
 }
 .center{
   text-align: center;
