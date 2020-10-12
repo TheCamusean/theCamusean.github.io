@@ -4,6 +4,7 @@ mathjax: True
 title:  "Learning Optimal Controllers through HJB & PMP"
 fields: "optimalcontrol"
 extra: "Optimal Control"
+img : "optimal_control.jpg"
 date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 ---
