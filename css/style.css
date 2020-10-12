@@ -306,6 +306,18 @@ a.active {
 
 /* home section
 ==================================================*/
+#post {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* post section
+==================================================*/
+
+
+
+/* post section
+==================================================*/
 
 #post_home {
     background: url(../Figures/circus_stability.jpg);
