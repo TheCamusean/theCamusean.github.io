@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_clean
 mathjax: True
 title:  "Learning Optimal Controllers through HJB & PMP"
 fields: "optimalcontrol"

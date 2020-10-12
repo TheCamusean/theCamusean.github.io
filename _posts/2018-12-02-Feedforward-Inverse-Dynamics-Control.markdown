@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post_clean
 mathjax: True
 title:  "Feedforward Inverse Dynamics"
 extra: "Robotics"
