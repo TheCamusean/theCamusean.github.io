@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Optimal Controllers through HJB & PMP</title>
+    <!-- <link rel="icon" href="Figures/icon.png" type="image/x-icon"> -->
+    <!-- Bootstrap -->
+    <link href= "/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                |
+                <li><a href="/">Home</a></li>
+                |
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h1><span class='W'>Learning Optimal Controllers through HJB & PMP</span></h1>
+                    <h4>Optimal Control</h4></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h1 id="learning-optimal-controllers-through-hjb--pmp">Learning Optimal Controllers Through HJB &amp; PMP</h1>
+
+<p>When it comes to Optimal Control Theory, two main approaches has been considered in order to solve it. On one side, the famous Hamilton-Jacobi-Bellman equation and on the other side, Pontryagin’s Maximun Principle.</p>
+
+<p>But first, let’s formalize the Optimal Control problem. Assume a dynamical system</p>
+
+<p>\begin{equation}
+    \dot{x} = f(x,u,t)
+\end{equation}</p>
+
+<p>and a Value function</p>
+
+<p>\begin{equation}
+V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt.
+\end{equation}</p>
+
+<p>The objective is to minimize the value function</p>
+
+<p>\begin{equation}
+    V^{*}(x,u,t) = \arg \min_u \int_{0}^{\inf} r(x,u,t) dt
+    \label{eq:value_func}
+\end{equation}</p>
+
+<p>In order to solve this problem, two main paths has been studied. On one side, extending the work of <a href="https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation">Hamilton &amp; Jacobi</a>, Bellman developed the <a href="http://fourier.dur.ac.uk/Ug/projects/highlights/PR4/Smears_HJB_report.pdf">Hamilton-Jacobi-Bellman equation</a>(HJB) in the decade of the 60’s. On the other hand, Pontryagin’s approach is also well known as the Pontryagin’s Maximun Principle(PMP).</p>
+
+<h2 id="hamilton-jacobi-bellman-equation">Hamilton-Jacobi-Bellman equation</h2>
+
+<p>Based on the previous work on Dynamic Programming, Bellman found an extension on the Hamilton-Jacobi equation in order to solve the Optimal Control problem.</p>
+
+<p>Let’s apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \ref{eq:value_func}</p>
+
+<p>\begin{equation}
+\begin{split}
+  V(x,t) = \min_u(r(t,x,u)dt + V(t+dt,x+f(x,u,t)dt))\approx <br />
+  min_u(r(t,x,u)dt + J(x,t) + \partial_t J(x,t)dt + \partial_x J(x,t)f(x,u,t)dt)
+  \label{HJB001}
+\end{split}
+\end{equation}</p>
+
+<p>where in the second line a Taylor expansion of the dynamic programming has been done. From Eq. \ref{HJB001}, we can obtain the Hamilton-Jacobi-Bellman equation</p>
+
+<p>\begin{equation}
+  -\partial_t J(x,t) = \min_u (r(x,t,u) + \partial_x J(x,t)f(x,u,t))
+  \label{HJBEQ}
+\end{equation}</p>
+
+<p>As it will be used in the future for computing by PMP, The Hamiltonian is represented in right-hand side</p>
+
+<p>\begin{equation}
+  H = r(x,t,u) + \partial_x J(x,t)f(x,u,t)
+  \label{Hamilton}
+\end{equation}</p>
+
+<p>The optimal controller will be obtained when the derivative of the Hamiltonian equals 0 $\frac{dH}{du}=0$.</p>
+
+<p>In order to compute the optimal controller and so, solve the optimal control problem some assumptions must be done on the dynamic system $f(x,u,t)$ and the cost function $r(x,u,t)$.</p>
+
+<h2 id="pontryagins-minimum-principle">Pontryagin’s Minimum Principle</h2>
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/jquery.form.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="/js/custom.js"></script>
+</body>
+
+</html>

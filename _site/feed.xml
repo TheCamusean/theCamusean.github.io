@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julen Urain&#39;s Homepage</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 12 Oct 2020 19:51:57 +0200</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2020 19:51:57 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Dynamic Systems, Stability  and Normalizing Flows</title>
+        <description>&lt;h2 id=&quot;dynamic-systems-stability--and-normalizing-flows&quot;&gt;Dynamic Systems, Stability  and Normalizing Flows&lt;/h2&gt;
+&lt;h3 id=&quot;introduction-to-imitationflows&quot;&gt;&lt;em&gt;Introduction to ImitationFlows&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Figures/RSHAPE.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple’s motion falling from a tree, the heat diffusion in a room or a robot’s motion playing table tennis.&lt;/p&gt;
+
+&lt;p&gt;An Important property of Dynamic Systems is the Stability. The Stability Theory studies how the motion in a dynamic system changes under some perturbation. Given a point running&lt;/p&gt;
+
+&lt;p&gt;In this article we will introduce how we can build stable stochastic nonlinear dynamics by the combination of Linear Dynamics and Normalizing Flows. For more information you can go to our paper  (add citation)&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-stochastic-dynamics--stability&quot;&gt;Linear Stochastic Dynamics &amp;amp; Stability&lt;/h2&gt;
+
+&lt;p&gt;Linear Dynamic Systems consider a linear function between the state and the time derivative of the state&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\dot{x} = A x
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Linear Dynamics has been further studied. Thanks to their simplicity, there has been plenty of mathematical research on them.&lt;/p&gt;
+
+&lt;h3 id=&quot;stability&quot;&gt;Stability&lt;/h3&gt;
+&lt;p&gt;Stability analysis can be clearly study from Poincare Diagrams&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Figures/Stability_Diagram.png&quot; alt=&quot;Image&quot; /&gt; (add reference to the figure)&lt;/p&gt;
+
+&lt;h3 id=&quot;stochasticity-and-density-evolution&quot;&gt;Stochasticity and density evolution&lt;/h3&gt;
+
+&lt;p&gt;GIF on which we can observe how a gaussian distribution mean and variance is morphed moving through a stable linear vector field.&lt;/p&gt;
+
+&lt;p&gt;Graphical model to explain the message passing of the noise.&lt;/p&gt;
+
+&lt;h2 id=&quot;normalizing-flows--nonlinear-stable-flows&quot;&gt;Normalizing Flows &amp;amp; Nonlinear Stable Flows&lt;/h2&gt;
+
+&lt;p&gt;Introduce a GIF showing the morphing through a Normalizing Flow(use FFJORD case, for some dynamics)&lt;/p&gt;
+
+&lt;h3 id=&quot;diffeormorphism&quot;&gt;Diffeormorphism&lt;/h3&gt;
+
+&lt;p&gt;Explain what diffeomorphism is, add a graphical model explaining my dynamical systems evolution in latent space vs observation space&lt;/p&gt;
+
+&lt;h3 id=&quot;the-importance-of-the-bijective-mappings&quot;&gt;The importance of the bijective mappings&lt;/h3&gt;
+
+&lt;p&gt;Add a figure showing the bijective mapping versus the injective mapping and surjective mappings&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Figures/injective_bijective.png&quot; alt=&quot;Image&quot; /&gt; (add reference to the figure)&lt;/p&gt;
+
+&lt;p&gt;Explain the problem of encoder-decoder structure.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 May 2019 00:12:04 +0200</pubDate>
+        <link>/jekyll/update/2019/05/27/ImitationFlows.html</link>
+        <guid isPermaLink="true">/jekyll/update/2019/05/27/ImitationFlows.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning Optimal Controllers through HJB &amp; PMP</title>
+        <description>&lt;h1 id=&quot;learning-optimal-controllers-through-hjb--pmp&quot;&gt;Learning Optimal Controllers Through HJB &amp;amp; PMP&lt;/h1&gt;
+
+&lt;p&gt;When it comes to Optimal Control Theory, two main approaches has been considered in order to solve it. On one side, the famous Hamilton-Jacobi-Bellman equation and on the other side, Pontryagin’s Maximun Principle.&lt;/p&gt;
+
+&lt;p&gt;But first, let’s formalize the Optimal Control problem. Assume a dynamical system&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    \dot{x} = f(x,u,t)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;and a Value function&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt.
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;The objective is to minimize the value function&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+    V^{*}(x,u,t) = \arg \min_u \int_{0}^{\inf} r(x,u,t) dt
+    \label{eq:value_func}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;In order to solve this problem, two main paths has been studied. On one side, extending the work of &lt;a href=&quot;https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation&quot;&gt;Hamilton &amp;amp; Jacobi&lt;/a&gt;, Bellman developed the &lt;a href=&quot;http://fourier.dur.ac.uk/Ug/projects/highlights/PR4/Smears_HJB_report.pdf&quot;&gt;Hamilton-Jacobi-Bellman equation&lt;/a&gt;(HJB) in the decade of the 60’s. On the other hand, Pontryagin’s approach is also well known as the Pontryagin’s Maximun Principle(PMP).&lt;/p&gt;
+
+&lt;h2 id=&quot;hamilton-jacobi-bellman-equation&quot;&gt;Hamilton-Jacobi-Bellman equation&lt;/h2&gt;
+
+&lt;p&gt;Based on the previous work on Dynamic Programming, Bellman found an extension on the Hamilton-Jacobi equation in order to solve the Optimal Control problem.&lt;/p&gt;
+
+&lt;p&gt;Let’s apply dynamic programming approach on the value function. The value function can be represented in dependence on the previous instant. Rewritting Eq. \ref{eq:value_func}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\begin{split}
+  V(x,t) = \min_u(r(t,x,u)dt + V(t+dt,x+f(x,u,t)dt))\approx &lt;br /&gt;
+  min_u(r(t,x,u)dt + J(x,t) + \partial_t J(x,t)dt + \partial_x J(x,t)f(x,u,t)dt)
+  \label{HJB001}
+\end{split}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;where in the second line a Taylor expansion of the dynamic programming has been done. From Eq. \ref{HJB001}, we can obtain the Hamilton-Jacobi-Bellman equation&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+  -\partial_t J(x,t) = \min_u (r(x,t,u) + \partial_x J(x,t)f(x,u,t))
+  \label{HJBEQ}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;As it will be used in the future for computing by PMP, The Hamiltonian is represented in right-hand side&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+  H = r(x,t,u) + \partial_x J(x,t)f(x,u,t)
+  \label{Hamilton}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;The optimal controller will be obtained when the derivative of the Hamiltonian equals 0 $\frac{dH}{du}=0$.&lt;/p&gt;
+
+&lt;p&gt;In order to compute the optimal controller and so, solve the optimal control problem some assumptions must be done on the dynamic system $f(x,u,t)$ and the cost function $r(x,u,t)$.&lt;/p&gt;
+
+&lt;h2 id=&quot;pontryagins-minimum-principle&quot;&gt;Pontryagin’s Minimum Principle&lt;/h2&gt;
+</description>
+        <pubDate>Mon, 27 May 2019 00:12:04 +0200</pubDate>
+        <link>/jekyll/update/2019/05/27/Learning-Optimal-Controllers.html</link>
+        <guid isPermaLink="true">/jekyll/update/2019/05/27/Learning-Optimal-Controllers.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Feedforward Inverse Dynamics</title>
+        <description>&lt;p&gt;BLAAAAAAAAAAAAAAAAAA&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 = \arg \max_u&lt;/script&gt;
+</description>
+        <pubDate>Sun, 02 Dec 2018 23:12:04 +0100</pubDate>
+        <link>/2018/12/02/Feedforward-Inverse-Dynamics-Control.html</link>
+        <guid isPermaLink="true">/2018/12/02/Feedforward-Inverse-Dynamics-Control.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

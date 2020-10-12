@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,25 +9,25 @@ layout: default
     <title>{{page.title}}</title>
     <!-- <link rel="icon" href="Figures/icon.png" type="image/x-icon"> -->
     <!-- Bootstrap -->
-    <link href="{{ 'css/bootstrap.min.css' | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ 'ionicons/css/ionicons.min.css' | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ 'css/animate.min.css' | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ 'css/aos.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href= "/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/aos.css" rel="stylesheet">
     <!-- main style -->
-    <link href="{{ 'css/style.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Preloader -->
-    <!-- <div id="preloader">
+    <div id="preloader">
         <div id="status">
 
             <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
             </div>
 
         </div>
-    </div> -->
+    </div>
     <!-- ./Preloader -->
 
     <!-- header -->
@@ -36,29 +35,37 @@ layout: default
         <nav>
             <ul>
                 |
-                <li><a href="https://thecamusean.github.io/">Home2</a></li>
+                <li><a href="/">Home</a></li>
                 |
             </ul>
         </nav>
     </header>
     <!-- ./header -->
 
-    <!-- home -->
     <div class="section" id="home" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="disply-table">
                 <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
-                    <h1><span class='W'>Julen Urain</span></h1>
-                    <h4>PhD candidate Robot Learning</h4></div>
-                </div>
+                    <h1><span class='W'>{{page.title}}</span></h1>
+                    <h4>{{page.extra}}</h4></div>
             </div>
         </div>
     </div>
-    <!-- ./home -->
 
     <div class="section" id="contact">
       {{content}}
     </div>
 
 
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/jquery.form.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="/js/custom.js"></script>
 </body>
