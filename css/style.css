@@ -310,7 +310,9 @@ a.active {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  border: 3px solid green;
+}
+.center{
+  text-align: center;
 }
 
 /* post section
