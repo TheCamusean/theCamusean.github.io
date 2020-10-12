@@ -304,6 +304,25 @@ a.active {
 }
 
 
+/* home section
+==================================================*/
+
+#post_home {
+    background: url(../Figures/circus_stability.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.disply-table {
+    display: table;
+    height: 100vh;
+}
+
 /* about section
 ==================================================*/
 
