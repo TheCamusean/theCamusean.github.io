@@ -309,6 +309,8 @@ a.active {
 #post {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
+  border: 3px solid green;
 }
 
 /* post section
