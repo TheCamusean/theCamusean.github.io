@@ -100,6 +100,8 @@ layout: default
                 <ul class="timeline">
                     {% for publication in site.publications %}
                       {{publication.content}}
+                    {% else %}
+                      <h3>No Publications</h3>
                     {% endfor %}
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
