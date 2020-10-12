@@ -1,3 +1,11 @@
+---
+layout: post
+mathjax: True
+title:  "Dynamic Systems, Stability  and Normalizing Flows"
+fields: "stability, optimal control"
+date:   2019-05-26 23:12:04 +0100
+categories: jekyll update
+---
 ## Dynamic Systems, Stability  and Normalizing Flows
 ### _Introduction to ImitationFlows_
 
