@@ -99,14 +99,7 @@ layout: default
             <div class="col-md-12">
                 <ul class="timeline">
                     {% for publication in site.publications %}
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">{{publication.time}}</p>
-                            <h3>{{publication.title}}</h3>
-                            <h4>{{publication.extra}}</h4>
-                          </div>
-                    </li>
+                      {{publication.content}}
                     {% endfor %}
                     <li class="timeline-event" data-aos="fade-up">
                         <label class="timeline-event-icon"></label>
