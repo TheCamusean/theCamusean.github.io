@@ -135,7 +135,7 @@ layout: default
                             <nav class="categories">
                                 <ul class="portfolio_filter">
                                     <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".stability">stability</a></li>
+                                    <li><a href="" data-filter=".photography">Photography</a></li>
                                     <li><a href="" data-filter=".o_control">optimal control</a></li>
                                     <li><a href="" data-filter=".graphics">Imitation Learning</a></li>
                                     <li><a href="" data-filter=".ads">Reinforcement Learning</a></li>
@@ -149,7 +149,7 @@ layout: default
                         <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
                           {% for post in site.posts %}
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 {{post.fields}}">
+                            <div class="col-md-4 col-sm-6 photography">
                                 <a href="{{ post.url | prepend: site.baseurl }}" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                       <div class="portfolio-border clearfix">
