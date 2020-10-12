@@ -1,5 +1,5 @@
 ---
 title: My page
-layout: default_cool
+layout: default_good
 title: Julen Urain | PhD TUDA
 ---
