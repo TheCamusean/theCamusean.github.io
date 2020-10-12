@@ -24,5 +24,34 @@ layout: default
     <![endif]-->
 </head>
 
-<!-- For documents/pages whose URLs can change... -->
-[{{ page.title }}]("{{ page.url | relative_url }}")
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                |
+                <li><a href="#about">About</a></li>
+                |
+                <li><a href="#experience">Publications</a></li>
+                |
+                <li><a href="#projects">Blogs</a></li>
+                |
+                <li><a href="#contact">Contact</a></li>
+                |
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+</body>
