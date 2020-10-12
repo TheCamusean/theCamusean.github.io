@@ -307,9 +307,7 @@ a.active {
 /* home section
 ==================================================*/
 #post {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  padding: 100px 0;
 }
 .center{
   text-align: center;
