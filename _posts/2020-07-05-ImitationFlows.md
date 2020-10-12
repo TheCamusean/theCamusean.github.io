@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 mathjax: True
 title:  "Dynamic Systems, Stability  and Normalizing Flows"
 fields: "stability"
