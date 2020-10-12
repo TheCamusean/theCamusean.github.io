@@ -99,12 +99,16 @@ layout: default
             <div class="col-md-12">
                 <ul class="timeline">
                     {% for publication in site.publications %}
-                      <li class="timeline-event" data-aos="fade-up">
-                          <label class="timeline-event-icon"></label>
-                          <div class="timeline-event-copy">
-                              <h3>HERE,Danke! GmbH</h3>
-                          </div>
-                      </li>
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">{{publication.time}}</p>
+                            <h3>HERE,Danke! GmbH</h3>
+                            <h4>eines Web-Studios</h4>
+                            <p><strong>Projektmanagement mit Scrum</strong>
+                                <br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p>
+                        </div>
+                    </li>
                     {% else %}
                       <h3>No Publicationswwee</h3>
                     {% endfor %}
