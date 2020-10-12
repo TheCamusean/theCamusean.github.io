@@ -2,7 +2,8 @@
 layout: post
 mathjax: True
 title:  "Learning Optimal Controllers through HJB & PMP"
-fields: "stability optimal control"
+fields: "optimalcontrol"
+extra: "Optimal Control"
 date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 ---
