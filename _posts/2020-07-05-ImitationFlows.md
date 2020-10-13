@@ -8,10 +8,13 @@ date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 img : "circus_stability.jpg"
 ---
-## Dynamic Systems, Stability  and Normalizing Flows
 ### _Introduction to ImitationFlows_
 
 ![Image](/Figures/RSHAPE.png)
+
+<img src="/Figures/RSHAPE.png" alt="Kitten"
+	title="A cute kitten" width="150" height="100" />
+
 
 Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple's motion falling from a tree, the heat diffusion in a room or a robot's motion playing table tennis.
 
