@@ -57,7 +57,7 @@ Explain what diffeomorphism is, add a graphical model explaining my dynamical sy
 
 Add a figure showing the bijective mapping versus the injective mapping and surjective mappings
 
-![Image](/Figures/injective_bijective.png) (add reference to the figure)
+<br /> <img src="/Figures/injective_bijective.png" alt="" class="img-responsive" />
 
 
 Explain the problem of encoder-decoder structure.
