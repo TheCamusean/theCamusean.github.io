@@ -12,8 +12,7 @@ img : "circus_stability.jpg"
 
 ![Image](/Figures/RSHAPE.png)
 
-<img src="/Figures/RSHAPE.png" alt="Kitten"
-	title="A cute kitten" width="150" height="100" />
+<img src="/Figures/RSHAPE.png" alt="shape" class="center"/>
 
 
 Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple's motion falling from a tree, the heat diffusion in a room or a robot's motion playing table tennis.
