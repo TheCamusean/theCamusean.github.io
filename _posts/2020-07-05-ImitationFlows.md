@@ -12,10 +12,8 @@ img : "circus_stability.jpg"
 
 ![Image](/Figures/RSHAPE.png)
 
-<img src="/Figures/RSHAPE.png" width=70% class=img-blog alt="" data-aos="fade-right" data-aos-delay="0"/>
-
 <div align="center">
-  <img src="/Figures/RSHAPE.png" width=70%  alt="" data-aos="fade-right" data-aos-delay="0"/>
+  <img src="/Figures/RSHAPE.png" width=70%  alt=""/>
 </div>
 
 
