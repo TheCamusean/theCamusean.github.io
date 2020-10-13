@@ -10,8 +10,6 @@ img : "circus_stability.jpg"
 ---
 ### _Introduction to ImitationFlows_
 
-![Image](/Figures/RSHAPE.png)
-
 <br /> <img src="/Figures/RSHAPE.png" alt="" class="img-responsive" />
 
 
@@ -36,7 +34,8 @@ Linear Dynamics has been further studied. Thanks to their simplicity, there has 
 ### Stability
 Stability analysis can be clearly study from Poincare Diagrams
 
-![Image](/Figures/Stability_Diagram.png) (add reference to the figure)
+
+<br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
 
 
 ### Stochasticity and density evolution
