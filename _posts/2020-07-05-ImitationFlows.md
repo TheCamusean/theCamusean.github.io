@@ -8,9 +8,7 @@ date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 img : "circus_stability.jpg"
 ---
-## Introduction to ImitationFlows
 
-<h4>01</h4>
 <h1 class="size-50">Introduction to ImitationFlows</h1>
 
 Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple's motion falling from a tree, the heat diffusion in a room or a robot's motion playing table tennis.
