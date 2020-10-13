@@ -8,7 +8,7 @@ date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 img : "circus_stability.jpg"
 ---
-# Introduction to ImitationFlows
+## Introduction to ImitationFlows
 
 Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple's motion falling from a tree, the heat diffusion in a room or a robot's motion playing table tennis.
 
@@ -17,7 +17,7 @@ An Important property of Dynamic Systems is the Stability. The Stability Theory 
 In this article we will introduce how we can build stable stochastic nonlinear dynamics by the combination of Linear Dynamics and Normalizing Flows. For more information you can go to our paper  (add citation)
 
 
-# Linear Stochastic Dynamics & Stability
+## Linear Stochastic Dynamics & Stability
 
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
@@ -41,7 +41,7 @@ GIF on which we can observe how a gaussian distribution mean and variance is mor
 Graphical model to explain the message passing of the noise.
 
 
-# Normalizing Flows & Nonlinear Stable Flows
+## Normalizing Flows & Nonlinear Stable Flows
 
 Introduce a GIF showing the morphing through a Normalizing Flow(use FFJORD case, for some dynamics)
 
