@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learning Optimal Controllers through HJB & PMP</title>
-    <!-- <link rel="icon" href="Figures/icon.png" type="image/x-icon"> -->
+    <link rel="icon" href="/Figures/icon.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href= "/css/bootstrap.min.css" rel="stylesheet">
     <link href="/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -36,8 +36,13 @@
                 <li><a href="/">Home</a></li>
                 |
             </ul>
+            <ul style="text-align: left; list-style-type: none;">
+              <li><a href="https://twitter.com/theCamusean"><i class="ion-social-twitter"></i></a></li>
+              <li><a href="https://github.com/TheCamusean"><i class="ion-social-github" ></i></a></li>
+            </ul>
         </nav>
     </header>
+
     <!-- ./header -->
 
     <div class="section" id="post_home" data-stellar-background-ratio="0.5"
@@ -53,8 +58,39 @@
         </div>
     </div>
 
-    <div class="section" id="contact">
-      <h1 id="learning-optimal-controllers-through-hjb--pmp">Learning Optimal Controllers Through HJB &amp; PMP</h1>
+
+
+
+    
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+
+
+      <div class="section" id="post" >
+        <div class="container">
+            <!-- <div class="center"> -->
+             <div class="col-md-8 col-md-offset-2">
+                <div class="h-50"></div>
+              <!-- <p align="center"> -->
+                   <h1 class="size-50">Learning Optimal Controllers Through HJB &amp; PMP</h1>
 
 <p>When it comes to Optimal Control Theory, two main approaches has been considered in order to solve it. On one side, the famous Hamilton-Jacobi-Bellman equation and on the other side, Pontryagin’s Maximun Principle.</p>
 
@@ -113,9 +149,48 @@ V(x,u,t) = \int_{0}^{\inf} r(x,u,t) dt.
 
 <h2 id="pontryagins-minimum-principle">Pontryagin’s Minimum Principle</h2>
 
-    </div>
+              <!-- </p> -->
+            </div>
+          </div>
+       </div>
+
+      <div class="section" id="post" >
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="h-50"></div>
+            <div id="disqus_thread"></div>
+              <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://https-thecamusean-github-io.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+      </div>
 
 
+
+
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+    </script>
     <!-- jQuery -->
     <script src="/js/jquery.js"></script>
     <!--  plugins  -->

@@ -6,16 +6,13 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2020 20:47:11 +0200</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2020 20:47:11 +0200</lastBuildDate>
+    <pubDate>Tue, 13 Oct 2020 13:46:05 +0200</pubDate>
+    <lastBuildDate>Tue, 13 Oct 2020 13:46:05 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Dynamic Systems, Stability  and Normalizing Flows</title>
-        <description>&lt;h2 id=&quot;dynamic-systems-stability--and-normalizing-flows&quot;&gt;Dynamic Systems, Stability  and Normalizing Flows&lt;/h2&gt;
-&lt;h3 id=&quot;introduction-to-imitationflows&quot;&gt;&lt;em&gt;Introduction to ImitationFlows&lt;/em&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Figures/RSHAPE.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;h1 class=&quot;size-50&quot;&gt;Introduction to ImitationFlows&lt;/h1&gt;
 
 &lt;p&gt;Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple’s motion falling from a tree, the heat diffusion in a room or a robot’s motion playing table tennis.&lt;/p&gt;
 
@@ -36,7 +33,7 @@
 &lt;h3 id=&quot;stability&quot;&gt;Stability&lt;/h3&gt;
 &lt;p&gt;Stability analysis can be clearly study from Poincare Diagrams&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/Figures/Stability_Diagram.png&quot; alt=&quot;Image&quot; /&gt; (add reference to the figure)&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/Figures/Stability_Diagram.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;stochasticity-and-density-evolution&quot;&gt;Stochasticity and density evolution&lt;/h3&gt;
 
@@ -56,7 +53,7 @@
 
 &lt;p&gt;Add a figure showing the bijective mapping versus the injective mapping and surjective mappings&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/Figures/injective_bijective.png&quot; alt=&quot;Image&quot; /&gt; (add reference to the figure)&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/Figures/injective_bijective.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Explain the problem of encoder-decoder structure.&lt;/p&gt;
 </description>
@@ -73,7 +70,7 @@
     
       <item>
         <title>Learning Optimal Controllers through HJB &amp; PMP</title>
-        <description>&lt;h1 id=&quot;learning-optimal-controllers-through-hjb--pmp&quot;&gt;Learning Optimal Controllers Through HJB &amp;amp; PMP&lt;/h1&gt;
+        <description>&lt;h1 class=&quot;size-50&quot;&gt;Learning Optimal Controllers Through HJB &amp;amp; PMP&lt;/h1&gt;
 
 &lt;p&gt;When it comes to Optimal Control Theory, two main approaches has been considered in order to solve it. On one side, the famous Hamilton-Jacobi-Bellman equation and on the other side, Pontryagin’s Maximun Principle.&lt;/p&gt;
 

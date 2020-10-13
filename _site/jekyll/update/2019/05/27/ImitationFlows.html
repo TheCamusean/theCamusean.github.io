@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dynamic Systems, Stability  and Normalizing Flows</title>
-    <!-- <link rel="icon" href="Figures/icon.png" type="image/x-icon"> -->
+    <link rel="icon" href="/Figures/icon.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href= "/css/bootstrap.min.css" rel="stylesheet">
     <link href="/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -36,8 +36,13 @@
                 <li><a href="/">Home</a></li>
                 |
             </ul>
+            <ul style="text-align: left; list-style-type: none;">
+              <li><a href="https://twitter.com/theCamusean"><i class="ion-social-twitter"></i></a></li>
+              <li><a href="https://github.com/TheCamusean"><i class="ion-social-github" ></i></a></li>
+            </ul>
         </nav>
     </header>
+
     <!-- ./header -->
 
     <div class="section" id="post_home" data-stellar-background-ratio="0.5"
@@ -53,11 +58,39 @@
         </div>
     </div>
 
-    <div class="section" id="contact">
-      <h2 id="dynamic-systems-stability--and-normalizing-flows">Dynamic Systems, Stability  and Normalizing Flows</h2>
-<h3 id="introduction-to-imitationflows"><em>Introduction to ImitationFlows</em></h3>
 
-<p><img src="/Figures/RSHAPE.png" alt="Image" /></p>
+
+
+    
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+
+
+      <div class="section" id="post" >
+        <div class="container">
+            <!-- <div class="center"> -->
+             <div class="col-md-8 col-md-offset-2">
+                <div class="h-50"></div>
+              <!-- <p align="center"> -->
+                   <h1 class="size-50">Introduction to ImitationFlows</h1>
 
 <p>Dynamic Systems represent the time evolution of a point in a  geometrical space. Dynamic Systems can model apple’s motion falling from a tree, the heat diffusion in a room or a robot’s motion playing table tennis.</p>
 
@@ -78,7 +111,7 @@
 <h3 id="stability">Stability</h3>
 <p>Stability analysis can be clearly study from Poincare Diagrams</p>
 
-<p><img src="/Figures/Stability_Diagram.png" alt="Image" /> (add reference to the figure)</p>
+<p><br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" /></p>
 
 <h3 id="stochasticity-and-density-evolution">Stochasticity and density evolution</h3>
 
@@ -98,13 +131,52 @@
 
 <p>Add a figure showing the bijective mapping versus the injective mapping and surjective mappings</p>
 
-<p><img src="/Figures/injective_bijective.png" alt="Image" /> (add reference to the figure)</p>
+<p><br /> <img src="/Figures/injective_bijective.png" alt="" class="img-responsive" /></p>
 
 <p>Explain the problem of encoder-decoder structure.</p>
 
-    </div>
+              <!-- </p> -->
+            </div>
+          </div>
+       </div>
+
+      <div class="section" id="post" >
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="h-50"></div>
+            <div id="disqus_thread"></div>
+              <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://https-thecamusean-github-io.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+      </div>
 
 
+
+
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+    </script>
     <!-- jQuery -->
     <script src="/js/jquery.js"></script>
     <!--  plugins  -->
