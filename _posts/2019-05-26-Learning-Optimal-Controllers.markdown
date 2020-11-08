@@ -68,3 +68,5 @@ The optimal controller will be obtained when the derivative of the Hamiltonian e
 In order to compute the optimal controller and so, solve the optimal control problem some assumptions must be done on the dynamic system $f(x,u,t)$ and the cost function $r(x,u,t)$.
 
 ## Pontryagin's Minimum Principle
+
+In the following The Optimal Control will be developed to obtain the Pontryagin's minimun principle.
