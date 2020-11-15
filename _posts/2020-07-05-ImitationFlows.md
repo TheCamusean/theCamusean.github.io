@@ -55,6 +55,10 @@ $$y = f(z) \, , \, z = f^{-1}(y)$$
 
 and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
+MAYBE ADD A GRID SPACE WITH THE Diffeormorphism
+
+
+
 
 
 Explain what diffeomorphism is, add a graphical model explaining my dynamical systems evolution in latent space vs observation space
