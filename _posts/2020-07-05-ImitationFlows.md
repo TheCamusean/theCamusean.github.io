@@ -49,7 +49,7 @@ We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we a
 
 ## Diffeormorphism
 
-A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds. Given
+A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds. Given $y \in \mathbb{R}^{d}$ and $z \in \mathbb{R}^{d}$
 
 
 
