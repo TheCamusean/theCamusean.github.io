@@ -75,3 +75,16 @@ $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{d
 ### Normalizing Flows as a rich parameterized diffeomorphism
 
 Explain the problem of encoder-decoder structure.
+
+#### Citation
+
+If you want to work with ImitationFlows, you can cite us:
+
+```
+@article{urain2020imitationflows,
+  title={ImitationFlows: Learning Deep Stable Stochastic Dynamic Systems by Normalizing Flows},
+  author={Urain, Julen and Ginesi, Michele and Tateo, Davide and Peters, Jan},
+  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year={2020}
+}
+```
