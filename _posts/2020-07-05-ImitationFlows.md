@@ -28,8 +28,11 @@ In the following, I will try to show how combining the invertible neural network
 
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 \begin{align}
-\dot{x} = A x + b \nonumber
+\dot{x} = A x \nonumber
 \end{align}
+
+$$\dot{x} = A x + b$$
+
 Given their simplicity, stability analysis of this family of dynamics have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamic Systems.
 
 <br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
