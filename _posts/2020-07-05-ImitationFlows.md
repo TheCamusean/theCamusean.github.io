@@ -28,12 +28,20 @@ In the following, I will try to show how combining the invertible neural network
 
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
-$$\dot{x} = A x $$
+\begin{align}
+  \dot{x} = A x
+  \label{eq:linear}
+\end{align}
 
 Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is negative, $\mathbf{R}_e (\lambda_A) <0$; then, the dynamics are going to be globally asymptotically stable.
 
-Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function
-$$\dot{x} = - \frac{\partial V(x)}{\partial x}$$
+Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function $V(\cdot)$
+
+$$\dot{x} = - \frac{\partial V(x)}{\partial x}.$$
+
+When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover the dynamics in Eq. \ref{eq:linear}
+
+
 
 have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamic Systems.
 
