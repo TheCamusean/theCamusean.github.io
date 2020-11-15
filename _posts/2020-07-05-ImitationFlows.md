@@ -30,7 +30,10 @@ Linear Dynamic Systems consider a linear function between the state and the time
 
 $$\dot{x} = A x $$
 
-Given their simplicity, stability analysis of this family of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix are negative, $\mathbf{R}_e (\lambda_A) <0$, then, the dynamics are going to be globally asymptotically stable.
+Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is negative, $\mathbf{R}_e (\lambda_A) <0$; then, the dynamics are going to be globally asymptotically stable.
+
+Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function
+$$\dot{x} = - \frac{\partial V(x)}{\partial x}$$
 
 have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamic Systems.
 
