@@ -29,7 +29,7 @@ In the following, I will try to show how combining the invertible neural network
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
 \begin{equation}
-\dot{x} = A x
+\dot{x} = A x + b
 \end{equation}
 
 \[\dot{x}_t = Ax_t + B_\star u_t\,.\]
