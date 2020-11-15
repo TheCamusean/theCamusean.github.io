@@ -29,7 +29,7 @@ In the following, I will try to show how combining the invertible neural network
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
 \begin{align}
-  \dot{x} = - A x
+  \dot{z} = - A z
   \label{eq:linear}
 \end{align}
 
@@ -37,13 +37,13 @@ Given their simplicity, the stability of this type of dynamics can be easily stu
 
 Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function $V(\cdot)$
 
-$$\dot{x} = - \frac{\partial V(x)}{\partial x}.$$
+$$\dot{z} = - \frac{\partial V(x)}{\partial z}.$$
 
-When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
+When the energy function is quadratic, $V(z) = z A z^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
 
 SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
-Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
+Closing the circle, a quadratic function $V(z) = z A z^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
 
 We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we are only able to represent linear stable dynamics. From now on, I will try to show how introducing a diffeomorphic mapping between two spaces, we can remain globally stable and also, represent nonlinear dynamics.
 
