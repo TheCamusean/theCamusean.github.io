@@ -70,7 +70,7 @@ This intuition gives us the clue of the Stability guarantees. Given the diffeomo
 
 The dynamic system in $\mathbf{Y}$ can be represented in terms of $\mathbf{Z}$
 
-$$\frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{dt} = J(z) \dot{z} $$
+$$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{dt} = J(z) \dot{z} $$
 
 ### The importance of the bijective mappings
 
