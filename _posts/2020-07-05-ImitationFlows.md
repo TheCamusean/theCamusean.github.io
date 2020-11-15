@@ -24,7 +24,7 @@ Therefore, wondering which policy architectures could help us in the learning of
 In the following, I will try to show how combining the invertible neural networks of the **Normalizing Flows** and linear stable dynamics we can represent highly nonlinear stable dynamics that could be applied as robot policies.
 
 
-## Linear Stochastic Dynamics & Stability
+## Linear Dynamics & Stability
 
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
@@ -32,11 +32,7 @@ Linear Dynamic Systems consider a linear function between the state and the time
 \dot{x} = A x
 \end{equation}
 
-Linear Dynamics has been further studied. Thanks to their simplicity, there has been plenty of mathematical research on them.
-
-### Stability
-Stability analysis can be clearly study from Poincare Diagrams
-
+Given their simplicity, stability analysis of this family of dynamics have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamics.
 
 <br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
 
