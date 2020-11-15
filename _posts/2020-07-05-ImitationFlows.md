@@ -57,9 +57,12 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
 MAYBE ADD A GRID SPACE WITH THE Diffeormorphism
 
-Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$ the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
+Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$, the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
 $$U(y) = V(f^{-1}(y))$$
+
+
+An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $Z$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the space in $\mathbf{Z}$, such that  
 
 ### The importance of the bijective mappings
 
