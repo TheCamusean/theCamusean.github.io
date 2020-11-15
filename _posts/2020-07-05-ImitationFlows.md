@@ -32,6 +32,9 @@ Linear Dynamic Systems consider a linear function between the state and the time
 \dot{x} = A x
 \end{equation}
 
+\[\dot{x}_t = Ax_t + B_\star u_t\,.\]
+
+
 Given their simplicity, stability analysis of this family of dynamics have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamics.
 
 <br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
