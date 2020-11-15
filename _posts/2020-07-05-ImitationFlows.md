@@ -45,6 +45,8 @@ SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
 
 
+
+
 have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamic Systems.
 
 <br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
