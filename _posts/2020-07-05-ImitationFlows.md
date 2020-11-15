@@ -29,11 +29,11 @@ In the following, I will try to show how combining the invertible neural network
 Linear Dynamic Systems consider a linear function between the state and the time derivative of the state
 
 \begin{align}
-  \dot{x} = A x
+  \dot{x} = - A x
   \label{eq:linear}
 \end{align}
 
-Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is negative, $\mathbf{R}_e (\lambda_A) <0$; then, the dynamics are going to be globally asymptotically stable.
+Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is negative, $\mathbf{R}_e (\lambda_A) >0$; then, the dynamics are going to be globally asymptotically stable.
 
 Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function $V(\cdot)$
 
@@ -43,11 +43,15 @@ When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover th
 
 SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
-Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex as long as $A$ is negative definite, $\mathbf{R}_e (\lambda_A) <0$.
+Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
 
 We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we are only able to represent linear stable dynamics. From now on, I will try to show how introducing a diffeomorphic mapping between two spaces, we can remain globally stable and also, represent nonlinear dynamics.
 
 ## Diffeormorphism
+
+A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds. Given
+
+
 
 Explain what diffeomorphism is, add a graphical model explaining my dynamical systems evolution in latent space vs observation space
 
@@ -57,6 +61,6 @@ Add a figure showing the bijective mapping versus the injective mapping and surj
 
 <br /> <img src="/Figures/injective_bijective.png" alt="" class="img-responsive" />
 
-### Normalizing Flows as a rich parameterize diffeomorphism
+### Normalizing Flows as a rich parameterized diffeomorphism
 
 Explain the problem of encoder-decoder structure.
