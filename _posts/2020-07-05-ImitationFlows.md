@@ -4,6 +4,8 @@ mathjax: True
 title:  "Dynamic Systems, Stability  and Normalizing Flows"
 fields: "stability"
 extra: "Stability"
+arxiv: "https://arxiv.org/abs/2010.13129"
+github: "https://github.com/TheCamusean/iflow"
 date:   2019-05-26 23:12:04 +0100
 categories: jekyll update
 img : "circus_stability.jpg"
