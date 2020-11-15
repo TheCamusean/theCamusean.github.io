@@ -45,20 +45,7 @@ SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
 Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex as long as $A$ is negative definite, $\mathbf{R}_e (\lambda_A) <0$.
 
-
-
-
-
-### Stochasticity and density evolution
-
-GIF on which we can observe how a gaussian distribution mean and variance is morphed moving through a stable linear vector field.
-
-Graphical model to explain the message passing of the noise.
-
-
-## Normalizing Flows & Nonlinear Stable Flows
-
-Introduce a GIF showing the morphing through a Normalizing Flow(use FFJORD case, for some dynamics)
+We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we are only able to represent linear stable dynamics. From now on, I will try to show how introducing a diffeomorphic mapping between two spaces, we can remain globally stable and also, represent nonlinear dynamics.
 
 ### Diffeormorphism
 
@@ -70,5 +57,6 @@ Add a figure showing the bijective mapping versus the injective mapping and surj
 
 <br /> <img src="/Figures/injective_bijective.png" alt="" class="img-responsive" />
 
+## Normalizing Flows as a rich parameterize diffeomorphism
 
 Explain the problem of encoder-decoder structure.
