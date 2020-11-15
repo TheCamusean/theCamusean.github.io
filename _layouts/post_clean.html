@@ -57,9 +57,10 @@ mathjax: true
             <div class="disply-table">
                 <div class="table-cell" data-aos="fade-up" data-aos-delay="0" background = "../Figures/main.jpg">
                     <h1><span class='W'>{{page.title}}</span></h1>
-                    {% if page.arxiv %}
-                      <h2> <a href={{page.arxiv}} target='blank'><i class="ion-document-text"></i></a> <a href={{page.github}} target='blank'><i class="ion-social-github"></i></a> </h2></div>
-                    {% endif %}
+                    <h2>{% if page.arxiv %}
+                      <a href={{page.arxiv}} target='blank'><i class="ion-document-text"></i></a>{% endif %}
+                      {% if page.github %}
+                       <a href={{page.github}} target='blank'><i class="ion-social-github"></i></a> {% endif %}</h2></div>
             </div>
         </div>
     </div>
