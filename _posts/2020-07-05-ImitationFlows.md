@@ -68,6 +68,10 @@ ADD SOME REPRESENTATION OF DIFFEOMORPHISM CHANGING POTENTIAL.
 
 This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we show by Lyapunov Stability Analysis a properly formulated stability guarantees.
 
+The dynamic system in $\mathbf{Y}$ can be represented in terms of $\mathbf{Z}$
+
+$$\frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{dt} = J(z) \dot{z} $$
+
 ### The importance of the bijective mappings
 
 Add a figure showing the bijective mapping versus the injective mapping and surjective mappings
