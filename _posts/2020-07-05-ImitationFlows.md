@@ -47,14 +47,6 @@ Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex as
 
 
 
-have been deeply explored and Poincare Diagram is a beautiful representation of all possible behaviours in Linear Dynamic Systems.
-
-<br /> <img src="/Figures/Stability_Diagram.png" alt="" class="img-responsive" />
-
-
-
-
-
 
 
 ### Stochasticity and density evolution
