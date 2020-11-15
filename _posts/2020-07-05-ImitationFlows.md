@@ -39,7 +39,9 @@ Stability can be intuitively understand if we represent the dynamics as the grad
 
 $$\dot{x} = - \frac{\partial V(x)}{\partial x}.$$
 
-When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover the dynamics in Eq. \ref{eq:linear}
+When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
+
+SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
 
 
