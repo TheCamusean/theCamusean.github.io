@@ -49,7 +49,7 @@ We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we a
 
 ## Diffeormorphism
 
-A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds $\mathbf{Y}$, $\mathbf{Z}$. Given $y \in \mathbb{R}^{d}$ and $z \in \mathbb{R}^{d}$, a differentiable $f(\cdot)$ is a diffeomorphism if is bijective
+A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds $\mathbf{Y}$, $\mathbf{Z}$. Given $y \in \mathbb{R}^{d}$ and $z \in \mathbb{R}^{d}$, a differentiable function, $f(\cdot)$, is a diffeomorphism if is bijective
 
 $$y = f(z) \, , \, z = f^{-1}(y)$$
 
@@ -57,11 +57,9 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
 MAYBE ADD A GRID SPACE WITH THE Diffeormorphism
 
+Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
-
-
-
-Explain what diffeomorphism is, add a graphical model explaining my dynamical systems evolution in latent space vs observation space
+$$U(y) = V(f^{-1}(y))$$
 
 ### The importance of the bijective mappings
 
