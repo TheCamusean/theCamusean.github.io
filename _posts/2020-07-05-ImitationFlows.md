@@ -62,7 +62,11 @@ Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in
 $$U(y) = V(f^{-1}(y))$$
 
 
-An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $Z$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the space in $\mathbf{Z}$, such that  
+An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $Z$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the manifold $\mathbf{Z}$, such that $U(y) = V(z)$.
+
+ADD SOME REPRESENTATION OF DIFFEOMORPHISM CHANGING POTENTIAL.
+
+This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we show by Lyapunov Stability Analysis a properly formulated stability guarantees.
 
 ### The importance of the bijective mappings
 
