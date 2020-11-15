@@ -43,7 +43,7 @@ When the energy function is quadratic, $V(x) = x A x^{\intercal}$, we recover th
 
 SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
 
-
+Closing the circle, a quadratic function $V(x) = x A x^{\intercal}$ is convex if is negative definite, $\mathbf{R}_e (\lambda_A) <0$.
 
 
 
