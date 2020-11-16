@@ -73,7 +73,7 @@ The dynamic system in $\mathbf{Y}$ can be represented in terms of $\mathbf{Z}$
 
 $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{dt} = J(z) \dot{z}  =  -J(z) \frac{\partial V(z)}{\partial z}$$
 
-### Normalizing Flows as a rich parameterized diffeomorphism
+### Normalizing Flows as a  parameterized diffeomorphism
 
 **Normalizing Flows** are a set of generative models composed of a latent distribution $p(z)$ from which is easy to sample, usually a normal distribution, and a learnable diffeomorphism $f(\cdot)$, that maps latent space $\mathbf{Z}$ to observation space $\mathbf{Y}$
 \begin{align}
@@ -84,12 +84,11 @@ By the use of change of variable rule, the density on the $Y$ space can be compu
    p(y) = p(z) \left|\textrm{det} \frac{\partial f}{\partial z} \right|^{-1}
    \label{eq:density_nf}
 \end{align}
-The main research line in the Normalizing Flows is in the architectures for the learnable diffeomorphisms, grouped under the name of Invertible Neural Networks.
-
-These invertible neural networks are very expressive and we used them to learm our diffeomorphism. While In the context of Normalizing Flows, these networks had been used for learning distributions in static data, we can easily extend the model to learn distributions in trajectories. If we switch the latent distribution by a stochastic transition function $p(z_{k} | z_{k-1})$, we can represent the transition function in $\mathbf{Y}$
+The main research line in the Normalizing Flows is in the architectures for the learnable diffeomorphisms, grouped under the name of Invertible Neural Networks. In the context of Normalizing Flows, these networks had been used for learning distributions in static data; anyway, we can easily extend the model to learn distributions in trajectories. If we switch the latent distribution by a stochastic transition function $p(z_{k} | z_{k-1})$, we can represent the transition function in $\mathbf{Y}$,
 \begin{align}
-    p(y_{k}|y_{k-1}) = p(z_{k}|z_{k-1}) \left|\textrm{det} \frac{\partial f}{\partial z_{k}} \right|^{-1}.
+    p(y_{k}|y_{k-1}) = p(z_{k}|z_{k-1}) \left|\textrm{det} \frac{\partial f}{\partial z_{k}} \right|^{-1},
 \end{align}
+in terms of the latent stochastic dynamics $p(z_{k}|z_{k-1})$ and a parameterized diffeomorphism $f$.  
 
 
 #### Citation
