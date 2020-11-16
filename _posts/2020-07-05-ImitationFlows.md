@@ -52,7 +52,7 @@ We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we a
 
 A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds $\mathbf{Y}$, $\mathbf{Z}$. Given $y \in \mathbb{R}^{d}$ and $z \in \mathbb{R}^{d}$, a differentiable function, $f(\cdot)$, is a diffeomorphism if is bijective
 
-$$y = f(z) \, , \, z = f^{-1}(y)$$
+$$y = f(z) \hspace{.5cm},\hspace{.5cm} z = f^{-1}(y)$$
 
 and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
@@ -77,7 +77,7 @@ $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{d
 
 **Normalizing Flows** are a set of generative models composed of a latent distribution $p(z)$ from which is easy to sample, usually a normal distribution, and a learnable bijective transformation $f(\cdot)$, that maps latent space $\mathbf{Z}$ to observation space $\mathbf{Y}$
 \begin{align}
-   y = f(z)\hspace{1cm} z \sim p(z)
+   y = f(z)\hspace{.5cm},\hspace{.5cm} z \sim p(z)
 \end{align}
 
 #### Citation
