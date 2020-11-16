@@ -46,7 +46,7 @@ When the energy function is quadratic, $V(z) = z A z^{\intercal}$, we recover th
 {% include youtubePlayer.html id=page.youtubeId %}
 
 
-Closing the circle, a quadratic function $V(z) = z A z^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
+Closing the circle, a quadratic function $V(z) = \frac{1}{2} z A z^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
 
 We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we are only able to represent linear stable dynamics. From now on, I will try to show how introducing a diffeomorphic mapping between two spaces, we can remain globally stable and also, represent nonlinear dynamics.
 
