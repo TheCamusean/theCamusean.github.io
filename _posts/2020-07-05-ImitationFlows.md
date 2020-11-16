@@ -75,9 +75,9 @@ $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{d
 
 ### Normalizing Flows as a rich parameterized diffeomorphism
 
-**Normalizing Flows** are a set of generative models composed of a latent distribution $p(\vz)$ from which is easy to sample, usually a normal distribution, and a learnable bijective transformation $f(\cdot)$, that maps latent space $\mZ$ to observation space $\mY$
+**Normalizing Flows** are a set of generative models composed of a latent distribution $p(z)$ from which is easy to sample, usually a normal distribution, and a learnable bijective transformation $f(\cdot)$, that maps latent space $\mathbf{Z}$ to observation space $\mathbf{Y}$
 \begin{align}
-   \vy = f(\vz)\hspace{1cm}\vz \sim p(\vz)
+   y = f(z)\hspace{1cm} z \sim p(z)
 \end{align}
 
 #### Citation
