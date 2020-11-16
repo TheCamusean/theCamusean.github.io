@@ -94,7 +94,7 @@ Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear an
 
 $$p(z_k|z_0) = \mathcal{N}(A^{k-1} \mu_{0}, \sum_{i=0}^{k} A^{i} \Sigma_{k-i} A^{i \intercal})$$
 
-and do exact inference of $p( y_k | y_0 )$ even if it is not a normal distribution.
+and do exact inference of $p(y_{k}|y_{k-1})$ even if it is not a normal distribution.
 
 
 #### Citation
