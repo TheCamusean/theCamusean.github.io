@@ -86,7 +86,10 @@ By the use of change of variable rule, the density on the $Y$ space can be compu
 \end{align}
 The main research line in the Normalizing Flows is in the architectures for the learnable diffeomorphisms, grouped under the name of Invertible Neural Networks.
 
-These invertible neural networks are very expressive and we used them to learm our diffeomorphism. While In the context of Normalizing Flows, these networks had been used for learning distributions in static data, we can easily extend the model to learn distributions in trajectories. 
+These invertible neural networks are very expressive and we used them to learm our diffeomorphism. While In the context of Normalizing Flows, these networks had been used for learning distributions in static data, we can easily extend the model to learn distributions in trajectories. If we switch the latent distribution by a stochastic transition function $p(z_{k} | z_{k-1})$, we can represent the transition function in $\mathbf{Y}$
+\begin{align}
+    p(y_{k}|y_{k-1}) = p(z_{k}|z_{k-1}) \left|\textrm{det} \frac{\partial f}{\partial z_{k}} \right|^{-1}.
+\end{align}
 
 
 #### Citation
