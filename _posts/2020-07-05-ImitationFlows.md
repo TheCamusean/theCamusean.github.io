@@ -1,5 +1,6 @@
 ---
 layout: post_clean
+permalink: /blogs/
 mathjax: True
 title:  "Dynamic Systems, Stability  and Normalizing Flows"
 fields: "stability"
