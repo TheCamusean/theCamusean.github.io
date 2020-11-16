@@ -9,7 +9,7 @@
 title: Julen Urain's Homepage
 email: julen@robot-learning.de
 description: Julen Urain's website. I try to talk about Robotics, Learning and control.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: theCamusean
 github_username:  TheCamusean
