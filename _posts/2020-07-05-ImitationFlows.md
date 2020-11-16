@@ -60,6 +60,9 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
 <img src="/Figures/iflow/diffeomorphism.png" alt="Diffeomorphism" style="width:\textwidth;"/>
 
+<div style="width:50%">![Diffeomorphism](/Figures/iflow/diffeomorphism.png)</div>
+
+
 
 Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$, the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
