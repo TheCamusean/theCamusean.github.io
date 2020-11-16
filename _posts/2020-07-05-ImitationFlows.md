@@ -75,10 +75,17 @@ $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{d
 
 ### Normalizing Flows as a rich parameterized diffeomorphism
 
-**Normalizing Flows** are a set of generative models composed of a latent distribution $p(z)$ from which is easy to sample, usually a normal distribution, and a learnable bijective transformation $f(\cdot)$, that maps latent space $\mathbf{Z}$ to observation space $\mathbf{Y}$
+**Normalizing Flows** are a set of generative models composed of a latent distribution $p(z)$ from which is easy to sample, usually a normal distribution, and a learnable diffeomorphism $f(\cdot)$, that maps latent space $\mathbf{Z}$ to observation space $\mathbf{Y}$
 \begin{align}
    y = f(z)\hspace{.5cm},\hspace{.5cm} z \sim p(z)
 \end{align}
+By the use of change of variable rule, the density on the $Y$ space can be computed in terms of the density in $Z$ space
+\begin{align}
+   p(y) = p(z) \left|\textrm{det} \frac{\partial f}{\partial z} \right|^{-1}
+   \label{eq:density_nf}
+\end{align}
+The main research line in the Normalizing Flows is in the architectures for the learnable diffeomorphisms, group under the name of Invertible Neural Networks.
+
 
 #### Citation
 
