@@ -90,9 +90,9 @@ The main research line in the Normalizing Flows is in the architectures for the 
 \end{align}
 in terms of the latent stochastic dynamics $p(z_{k}|z_{k-1})$ and a parameterized diffeomorphism $f$.
 
-Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear and the initial distribution is gaussian $p(z_0) = \mathcal{N}(\mu_0, \Sigma_0)$, we can propagate the distribution of the state as a normal distribution
+Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear and the initial distribution is gaussian $p(z_0) = \mathcal{N}(\mu_0, \Sigma_0)$, we can propagate $k$ steps the distribution of the state as a normal distribution
 
-$$p(z_k) = \mathcal{N}(A \mu_{k-1}, A \Sigma_{k-1} A^{\intercal} + \Sigma_k)$$
+$$p(z_k|z_0) = \mathcal{N}(A^{k-1} \mu_{0}, \sum_{i=0}^{k} A^{i} \Sigma_{k-i} A^{i \intercal})$$
 
 
 #### Citation
