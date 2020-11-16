@@ -35,7 +35,7 @@ Linear Dynamic Systems consider a linear function between the state and the time
   \label{eq:linear}
 \end{align}
 
-Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is negative, $\mathbf{R}_e (\lambda_A) >0$; then, the dynamics are going to be globally asymptotically stable.
+Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is positive, $\mathbf{R}_e (\lambda_A) >0$; then, the dynamics are going to be globally asymptotically stable.
 
 Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function $V(\cdot)$
 
