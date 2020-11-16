@@ -58,9 +58,9 @@ $$y = f(z) \hspace{.5cm},\hspace{.5cm} z = f^{-1}(y)$$
 
 and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
-<img src="/Figures/iflow/diffeomorphism.png" alt="Diffeomorphism" style="width:\textwidth;"/>
 
-<div style="width:50%">![Diffeomorphism](/Figures/iflow/diffeomorphism.png)</div>
+<img src="Figures/iflow/diffeomorphism.png" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+
 
 
 
