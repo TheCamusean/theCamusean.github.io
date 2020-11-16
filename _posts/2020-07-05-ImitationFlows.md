@@ -75,7 +75,10 @@ $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{d
 
 ### Normalizing Flows as a rich parameterized diffeomorphism
 
-Explain the problem of encoder-decoder structure.
+**Normalizing Flows** are a set of generative models composed of a latent distribution $p(\vz)$ from which is easy to sample, usually a normal distribution, and a learnable bijective transformation $f(\cdot)$, that maps latent space $\mZ$ to observation space $\mY$
+\begin{align}
+   \vy = f(\vz)\hspace{1cm}\vz \sim p(\vz)
+\end{align}
 
 #### Citation
 
