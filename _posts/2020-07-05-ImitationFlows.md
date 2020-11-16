@@ -92,6 +92,8 @@ in terms of the latent stochastic dynamics $p(z_{k}|z_{k-1})$ and a parameterize
 
 Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear and the initial distribution is gaussian $p(z_0) = \mathbb{N}(\mu_0, \Sigma_0)$, we can propagate the distribution of the state as a normal distribution
 
+$$p(z_k) = \mathbb{N}(A \mu_{k-1}, A \Sigma_{k-1} A^{\intercal} + \Sigma_k)$$
+
 
 #### Citation
 
