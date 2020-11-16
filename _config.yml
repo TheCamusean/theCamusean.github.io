@@ -8,8 +8,7 @@
 # Site settings
 title: Julen Urain's Homepage
 email: julen@robot-learning.de
-description: > # this means to ignore newlines until "baseurl:"
-  Julen Urain's website. I try to talk about Robotics, Learning and control.
+description: Julen Urain's website. I try to talk about Robotics, Learning and control.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: theCamusean
