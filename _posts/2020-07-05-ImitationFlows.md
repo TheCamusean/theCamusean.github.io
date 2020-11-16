@@ -50,7 +50,7 @@ Closing the circle, a quadratic function $V(z) = z A z^{\intercal}$ is convex as
 
 We are interested in learning Nonlinear Stable Dynamics. Anyway, until now, we are only able to represent linear stable dynamics. From now on, I will try to show how introducing a diffeomorphic mapping between two spaces, we can remain globally stable and also, represent nonlinear dynamics.
 
-## Diffeormorphism
+## Diffeomorphism
 
 A diffeomorphic function, $f(\cdot)$, is an invertible function that maps smoothly two manifolds $\mathbf{Y}$, $\mathbf{Z}$. Given $y \in \mathbb{R}^{d}$ and $z \in \mathbb{R}^{d}$, a differentiable function, $f(\cdot)$, is a diffeomorphism if is bijective
 
