@@ -1,6 +1,6 @@
 ---
 layout: post_clean
-permalink: /imitation_flows.html
+permalink: /blogs/imitation_flows.html
 mathjax: True
 title:  "Dynamic Systems, Stability  and Normalizing Flows"
 fields: "stability"
