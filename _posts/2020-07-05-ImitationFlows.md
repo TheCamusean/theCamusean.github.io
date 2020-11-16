@@ -69,7 +69,7 @@ $$U(y) = V(f^{-1}(y))$$
 
 An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $Z$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the manifold $\mathbf{Z}$, such that $U(y) = V(z)$.
 
-ADD SOME REPRESENTATION OF DIFFEOMORPHISM CHANGING POTENTIAL.
+<img src="Figures/iflow/potential.png" width="100%" class="img-blog" alt="" data-aos="fade-right" data-aos-delay="0"/>
 
 This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we properly formulated the stability guarantees in terms of Lyapunov Stability.
 
