@@ -66,7 +66,7 @@ An intuitive understanding on how the energy function in manifold $Y$ is related
 
 ADD SOME REPRESENTATION OF DIFFEOMORPHISM CHANGING POTENTIAL.
 
-This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we show by Lyapunov Stability Analysis a properly formulated stability guarantees.
+This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we properly formulated the stability guarantees in terms of Lyapunov Stability.
 
 The dynamic system in $\mathbf{Y}$ can be represented in terms of $\mathbf{Z}$
 
