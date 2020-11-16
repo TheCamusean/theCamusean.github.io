@@ -42,7 +42,8 @@ $$\dot{z} = - \frac{\partial V(z)}{\partial z}.$$
 
 When the energy function is quadratic, $V(z) = z A z^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
 
-SHOW HERE SOME GIF in which particles evolve under a convex quadratic function.
+[![linear_dynamics](http://img.youtube.com/vi/HWHIVrJCbYY/0.jpg)](http://www.youtube.com/watch?v=HWHIVrJCbYY "linear_dynamics")
+
 
 Closing the circle, a quadratic function $V(z) = z A z^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
 
@@ -93,7 +94,7 @@ in terms of the latent stochastic dynamics $p(z_{k}|z_{k-1})$ and a parameterize
 Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear and the initial distribution is gaussian $p(z_0) = \mathcal{N}(\mu_0, \Sigma_0)$, we can propagate $k$ steps the distribution of the state as a normal distribution
 
 $$p(z_k) = \mathcal{N}(A^{k-1} \mu_{0}, \sum_{i=0}^{k} A^{i} \Sigma_{k-i} A^{i \intercal})$$
-and do exact inference of $p(y_{k})$ even if is nto a normal distribution.
+and do exact inference of $p(y_{k})$ even if is not a normal distribution.
 
 
 #### Citation
