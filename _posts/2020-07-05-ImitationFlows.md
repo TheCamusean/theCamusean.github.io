@@ -69,9 +69,10 @@ Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in
 $$U(y) = V(f^{-1}(y))$$
 
 
-An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $Z$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the manifold $\mathbf{Z}$, such that $U(y) = V(z)$.
+An intuitive understanding on how the energy function in manifold $Y$ is related to the energy function in manifold $\mathbf{Z}$ is imagining the manifold $\mathbf{Z}$ as a deformable space in which the energy function lies. The diffeomorphism, $f$, will apply some deformation in the manifold $\mathbf{Z}$, such that $U(y) = V(z)$.
 
 <img src="Figures/iflow/potential.png" width="100%" class="img-blog" alt="" data-aos="fade-right" data-aos-delay="0"/>
+*Given a diffeomorphism between two spaces, if an energy function is convex in one space, it will remain convex in the other. Thus, the dynamics in the deformed space will inherit the stability properties of the latent dynamics.*
 
 This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we properly formulated the stability guarantees in terms of Lyapunov Stability.
 
