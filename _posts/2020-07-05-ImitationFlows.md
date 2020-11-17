@@ -116,7 +116,7 @@ $$p( \mathcal{D}_{\tau} ; \theta ) = \prod_{i=0}^{k} p(\tau_i ; \theta ) = \prod
 
 Selecting  Eq.\eqref{eq:dynamic_flow} transition probability model and choosing latent dynamics as linear stable stochastic dynamics, we were able to learn the dynamics of a set of trajectory demonstrations, while remaining stable.
 
-
+{% include youtubePlayer.html id="QNEtZOpz5Ro" %}
 
 
 #### Citation
