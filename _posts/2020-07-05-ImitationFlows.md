@@ -104,10 +104,14 @@ $$p(z_k) = \mathcal{N}(A^{k-1} \mu_{0}, \sum_{i=0}^{k} A^{i} \Sigma_{k-i} A^{i \
 
 and do exact inference of $p(y_{k})$ even if is not a normal distribution.
 
-In our work, we used the model in Eq.\eqref{eq:dynamic_flow} for Imitation Learning. Given a set of trajectory demonstrations $\mathcal{D}_{\tau}:\{ \tau_0 , \tau_1, \dots , \tau_n \}$, where each trajectory $\tau_i$ has $T_i$ steps, the Imitation Learning problem can be formulated as an MLE problem
+In our work, we used the model in Eq.\eqref{eq:dynamic_flow} for Imitation Learning. Given a set of trajectory demonstrations $\mathcal{D}_{\tau}=( \tau_0 , \tau_1, \dots , \tau_N )$, where each trajectory $\tau_i$ has $T_i$ steps, the Imitation Learning problem can be formulated as an MLE problem
 
 \begin{align}
-  \theta^{*} = \arg \max_{theta} p(\mathcal{D}_{\tau} ; \theta)
+  \theta^{3} = \arg \max_{\theta} p(\mathcal{D}_{\tau} ; \theta)
+\end{align}
+where
+\begin{align}
+  p(\mathcal{D}_{\tau} ; \theta) = \prod_{i=0}^{N}p(\tau_i;\theta) = \prod_{i=0}^{N} p(y_{i0};\theta) \prod_{t=0}^{T_i}p(y_{it}|y_{it-1};\theta)
 \end{align}
 
 
