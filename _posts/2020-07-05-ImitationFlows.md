@@ -112,7 +112,7 @@ In our work, we used the model in Eq.\eqref{eq:dynamic_flow} for Imitation Learn
 
 where,
 
-$$p( \mathcal{D}_{\tau} ; \theta ) = \sum_{i=0}^{k} p(\tau_i ; \theta )$$
+$$p( \mathcal{D}_{\tau} ; \theta ) = \prod_{i=0}^{k} p(\tau_i ; \theta )$$
 
 
 
