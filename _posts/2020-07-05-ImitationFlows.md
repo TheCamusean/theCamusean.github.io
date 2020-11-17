@@ -94,6 +94,7 @@ By the use of change of variable rule, the density on the $Y$ space can be compu
 The main research line in the Normalizing Flows is in the architectures for the learnable diffeomorphisms, grouped under the name of Invertible Neural Networks. In the context of Normalizing Flows, these networks had been used for learning distributions in static data; anyway, we can easily extend the model to learn distributions in trajectories. If we switch the latent distribution by a stochastic transition function $p(z_{k} | z_{k-1})$, we can represent the transition function in $\mathbf{Y}$,
 \begin{align}
     p(y_{k}|y_{k-1}) = p(z_{k}|z_{k-1}) \left|\textrm{det} \frac{\partial f}{\partial z_{k}} \right|^{-1},
+    \label{eq:dynamic_flow}
 \end{align}
 in terms of the latent stochastic dynamics $p(z_{k}|z_{k-1})$ and a parameterized diffeomorphism $f$.
 
@@ -102,6 +103,8 @@ Moreover, if the stochastic dynamics in $\mathbf{Z}$ are choosen to be linear an
 $$p(z_k) = \mathcal{N}(A^{k-1} \mu_{0}, \sum_{i=0}^{k} A^{i} \Sigma_{k-i} A^{i \intercal})$$
 
 and do exact inference of $p(y_{k})$ even if is not a normal distribution.
+
+In our work, we used the model in Eq.~\eqref{eq:dynamic_flow} in Imitation Learning problems.
 
 
 #### Citation
