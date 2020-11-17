@@ -41,7 +41,7 @@ Stability can be intuitively understand if we represent the dynamics as the grad
 
 $$\dot{z} = - \frac{\partial V(z)}{\partial z}.$$
 
-When the energy function is quadratic, $V(z) = \frac{1}{2} z A z^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
+When the energy function is quadratic, $V(z) = \frac{1}{2} z A z^{\intercal}$, we recover the linear dynamics in Eq. \eqref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
 
 {% include youtubePlayer.html id=page.youtubeId %}
 *Given our dynamics are defined by the gradient descent in a convex energy function, for any starting state, our trajectories will evolve towards the same target state*
