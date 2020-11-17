@@ -112,7 +112,10 @@ In our work, we used the model in Eq.\eqref{eq:dynamic_flow} for Imitation Learn
 
 where,
 
-$$p( \mathcal{D}_{\tau} ; \theta ) = \prod_{i=0}^{k} p(\tau_i ; \theta ) = \prod_{i=0}^{k} p(y_{0}^{i};\theta) \prod_{t=0}^{T_i} p(y_{t+1}^{i}|y_{t}^{i} ; \theta)$$
+$$p( \mathcal{D}_{\tau} ; \theta ) = \prod_{i=0}^{k} p(\tau_i ; \theta ) = \prod_{i=0}^{k} p(y_{0}^{i};\theta) \prod_{t=0}^{T_i} p(y_{t+1}^{i}|y_{t}^{i} ; \theta).$$
+
+Selecting  Eq.\eqref{eq:dynamic_flow} transition probability model and choosing latent dynamics as linear stable stochastic dynamics, we were able to learn the dynamics of a set of trajectory demonstrations, while remaining stable.
+
 
 
 
