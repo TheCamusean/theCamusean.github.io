@@ -64,7 +64,7 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
 *A diffeomorphism can be thought as a deformation in a elastic space. The transformation is bijective, thus there is a one-to-one mapping between each point of both spaces*
 
-Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$, the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
+Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$; the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
 $$U(y) = V(f^{-1}(y))$$
 
@@ -76,7 +76,7 @@ An intuitive understanding on how the energy function in manifold $Y$ is related
 
 This intuition gives us the clue of the Stability guarantees. Given the diffeomorphism can be thought as a deformation in the space, if the energy function in $\mathbf{Z}$ is a convex, the energy function in $\mathbf{Y}$ will remain convex, and so, globally asymptotically stable. In our work, we properly formulated the stability guarantees in terms of Lyapunov Stability.
 
-The dynamic system in $\mathbf{Y}$ can be represented in terms of $\mathbf{Z}$
+Moreover, We can represent the dynamic system in $\mathbf{Y}$ in terms of $\mathbf{Z}$
 
 $$\dot{y} = \frac{d y}{dt} = \frac{d f(z)}{dt} = \frac{d f(z)}{d z} \frac{d z}{dt} = J(z) \dot{z}  =  -J(z) \frac{\partial V(z)}{\partial z}$$
 
