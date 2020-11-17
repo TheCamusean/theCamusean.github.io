@@ -61,7 +61,7 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
 
  <img src="Figures/iflow/diffeomorphism.png" class="img-blog" alt="" data-aos="fade-right" data-aos-delay="0"/>
-
+*A diffeomorphism can be thought as a deformation in a elastic space. The transformation is bijective, thus there is a one-to-one mapping between each point of both spaces *
 
 Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism, $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$, the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
