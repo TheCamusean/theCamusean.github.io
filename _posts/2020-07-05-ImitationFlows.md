@@ -23,7 +23,7 @@ Stability guarantee is of particular interest in Robotics. If we think in most o
 
 Therefore, wondering which policy architectures could help us in the learning of stable nonlinear dynamic systems was an important question for my research and I decided to follow this path to find the architecture I am presenting in my first blog post.
 
-In the following, I will try to show how combining the invertible neural networks of the **Normalizing Flows** and linear stable dynamics we can represent highly nonlinear stable dynamics that could be applied as robot policies.
+In the following, I will try to show how combining the invertible neural networks of the **Normalizing Flows** and linear stable dynamics, we can represent highly nonlinear stable dynamics that could be applied as robot policies.
 
 
 ## Linear Dynamics & Stability
@@ -35,13 +35,13 @@ Linear Dynamic Systems consider a linear function between the state and the time
   \label{eq:linear}
 \end{align}
 
-Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix is positive, $\mathbf{R}_e (\lambda_A) >0$; then, the dynamics are going to be globally asymptotically stable.
+Given their simplicity, the stability of this type of dynamics can be easily studied. As long as the real part of the eigenvalues of the A matrix are positive, $\mathbf{R}_e (\lambda_A) >0$; then, the dynamics are going to be globally asymptotically stable.
 
 Stability can be intuitively understand if we represent the dynamics as the gradient descent on a energy function $V(\cdot)$
 
 $$\dot{z} = - \frac{\partial V(z)}{\partial z}.$$
 
-When the energy function is quadratic, $V(z) = z A z^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
+When the energy function is quadratic, $V(z) = \frac{1}{2} z A z^{\intercal}$, we recover the linear dynamics in Eq. \ref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
