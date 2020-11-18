@@ -44,7 +44,7 @@ $$\dot{z} = - \frac{\partial V(z)}{\partial z}.$$
 When the energy function is quadratic, $V(z) = \frac{1}{2} z A z^{\intercal}$, we recover the linear dynamics in Eq. \eqref{eq:linear}. Given the energy-based dynamics representation, stability will be guaranteed as long as $V(x)$ is a convex function.
 
 {% include youtubePlayer.html id=page.youtubeId %}
-*Given our dynamics are defined by the gradient descent in a convex energy function, for any starting state, our trajectories will evolve towards the same target state*
+*Given our dynamics are defined by the gradient descent in a convex energy function, for any starting state, our trajectories will evolve towards the same target state.*
 
 
 Closing the circle, a quadratic function $V(z) = \frac{1}{2} z A z^{\intercal}$ is convex as long as $A$ is positive definite and so, $\mathbf{R}_e (\lambda_A) > 0$.
@@ -62,7 +62,7 @@ and the inverse function $f^{-1}(\cdot)$ is also differentiable.
 
  <img src="Figures/iflow/diffeomorphism.png" class="img-blog" alt="" data-aos="fade-right" data-aos-delay="0"/>
 
-*A diffeomorphism can be thought as a deformation in a elastic space. The transformation is bijective, thus there is a one-to-one mapping between each point of both spaces*
+*A diffeomorphism can be thought as a deformation in a elastic space. The transformation is bijective, thus there is a one-to-one mapping between each point of both spaces.*
 
 Given we have an energy function, $V: \mathbb{R}^{d}\rightarrow{} \mathbb{R}$ in the manifold $\mathbf{Z}$ and a diffeomorphism $f: \mathbf{Y}\rightarrow{}\mathbf{Z}$; the energy function in the manifold $Y$ can be represented in terms of $V$ and $f$
 
